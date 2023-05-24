@@ -1,0 +1,10 @@
+{
+		"extends": "@tsconfig/node18-strictest/tsconfig.json",
+		"compilerOptions": {
+				"jsx": "react-jsx",
+				"ignoreDeprecations": "5.0",
+				"outDir": "dist"
+		},
+		"include": ["src"],
+		"exclude": ["node_modules"]
+}
